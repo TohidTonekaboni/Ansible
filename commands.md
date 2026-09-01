@@ -14,3 +14,8 @@ ansible config dump
 
 #### Ansible-playbook Structure
 
+sudo mkdir -p ansible/provision
+
+sudo chown -R tohid:staff ansible/
+
+ansible-playbook -i inventory/anisahosts myproject.yml
