@@ -1,0 +1,9 @@
+- name: ------------- crate a directory in /home ------
+  file: 
+    path: /home/dir1
+    state: directory
+    owner: devops
+    group: devops
+    mode: 0755
+  tags: create_dir1
+  
